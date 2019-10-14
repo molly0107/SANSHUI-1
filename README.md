@@ -1,2 +1,2 @@
 # SANSHUI
-http://img.shields.io/travis/{GitHub 用户名}/{项目名称}.svg
+[![](https://user-gold-cdn.xitu.io/2017/12/13/1604ec3c62a7de14)](https://travis-ci.org/Alamofire/Alamofire)
