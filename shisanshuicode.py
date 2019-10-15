@@ -575,7 +575,7 @@ def findmax(cardlist1, cardlist3, cardlist4, heitao, hongtao, meihua, fangkuai):
                 if tonghuashun.__len__() >= 5:
                     print("tonghuashun!", tonghuashun)
                     num = tonghuashun.__len__() - 4
-                    print("同花num", num)
+                    print("黑桃同花顺num", num)
                     for x in range(num):
                         maxlist.extend(tonghuashun[x:x + 5])
                         print(maxlist)
@@ -623,7 +623,7 @@ def findmax(cardlist1, cardlist3, cardlist4, heitao, hongtao, meihua, fangkuai):
                         tonghuashun.append(j)
                 if tonghuashun.__len__() >= 5:
                     num = tonghuashun.__len__() - 4
-                    print(num)
+                    print("梅花同花顺num", num)
                     for x in range(num):
                         maxlist.extend(tonghuashun[x:x + 5])
                         print(maxlist)
@@ -647,7 +647,7 @@ def findmax(cardlist1, cardlist3, cardlist4, heitao, hongtao, meihua, fangkuai):
                         tonghuashun.append(j)
                 if tonghuashun.__len__() >= 5:
                     num = tonghuashun.__len__() - 4
-                    print(num)
+                    print("方块同花顺num", num)
                     for x in range(num):
                         maxlist.extend(tonghuashun[x:x + 5])
                         print(maxlist)
